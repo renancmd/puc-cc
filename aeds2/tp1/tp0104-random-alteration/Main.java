@@ -26,6 +26,9 @@ public class Main {
 
         while (sc.hasNextLine()) {
             input = sc.nextLine();
+            if (input.charAt(0) == 'F' && input.charAt(1) == 'I' && input.charAt(2) == 'M') {
+                break;
+            }
             System.out.println(randomAlteration(input, gerador));
         }
 
