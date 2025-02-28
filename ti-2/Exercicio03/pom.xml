@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ex3</groupId>
+  <artifactId>Exercicio03</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+	<dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.7.5</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-simple</artifactId>
+	    <version>2.0.17</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+<!-- https://mvnrepository.com/artifact/com.sparkjava/spark-core -->
+	<dependency>
+	    <groupId>com.sparkjava</groupId>
+	    <artifactId>spark-core</artifactId>
+	    <version>2.9.4</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+	<dependency>
+	    <groupId>ch.qos.logback</groupId>
+	    <artifactId>logback-classic</artifactId>
+	    <version>1.5.17</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+	<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.12.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.ti2cc</groupId>
+		<artifactId>maven.demo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+</project>
